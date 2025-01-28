@@ -1,0 +1,12 @@
+p{
+    color:green;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;/* 100 o 900, bolder, bolder */
+    font-style: italic;
+    border:2px solid green; /*thickness styleborder:dotted, dashed, solid etc colorname */
+    text-align: center; /*left, center, right */
+    text-decoration:underline; /* line-through,  overline,underline */
+    text-transform: uppercase; /*uppercase: all letters in uppercase, lowercase, capitalize : makesd only first letter uppercase */
+    text-shadow: 3px 3px black ; /* shadow effect. horizontal vertical  colorname*/
+}
