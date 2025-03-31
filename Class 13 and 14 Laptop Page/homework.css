@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    padding: 24px;
+    background-color: #1a1a1a;
+}
+h1 {
+    margin: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 32px auto;
+    padding: 16px;
+    background-color: #222;
+    border-radius: 8px;
+}
+p {
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+.batman-images {
+    text-align: center;
+    margin: 24px 0;
+}
+.batman-images img {
+    width: 100%;
+    max-width: 400px;
+    margin: 8px;
+    border-radius: 8px;
+    display:inline;
+}
+.social-links {
+    text-align: center;
+    margin-top: 32px;
+}
+.social-links a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 18px;
+}
+.social-links a:hover {
+    text-decoration: underline;
+}

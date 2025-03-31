@@ -1,0 +1,27 @@
+.c1 {
+    background-color: rgb(26, 26, 85);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.c1, .c2, th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.c2 {
+    background-color: rgb(66, 66, 104);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+table {
+    background-color:cornsilk;
+    border:3px dashed rgb(83, 95, 145);
+position:absolute;
+top:150px;
+left:550px;
+color:white;
+
+
+}

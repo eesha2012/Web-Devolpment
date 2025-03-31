@@ -1,0 +1,48 @@
+/* laptopn screen style  900 to 1200*/
+@media screen and (min-width:900px){
+p{
+    font-size:20px;
+    color:red;
+}
+h1{
+   font-size:30px ; 
+}
+}
+/* mobile sreen style  300 to 500 */
+@media screen and (min-width:300px){
+p{
+    font-size:14px;
+    color:red;
+}
+h1{
+    font-size: 20px;;
+}
+}
+
+/* tablet screen style 600 to 800 */
+@media screen and (min-width:600px){
+p{
+    font-size:16px;
+    color:red;
+}
+h1{
+    font-size:16px;
+}
+}
+
+/* use keyrames names, time, delay */
+@keyframes moveRight{
+    0%{ /* we start from 0 as we start from top where  when it reaches to end its 100% */
+        transform:translateY(-100%)
+
+    }
+/* negative to top as y at top is negative and y at bottom is positive. */
+    100%{
+        transform: traslateY(100%)
+    }
+}
+button:hover {
+animation:moveRight 1s ease-in-out;
+}
+
+/* for other animation we can use example from the website : https://css-tricks.com/almanac/properties/a/animation/   */

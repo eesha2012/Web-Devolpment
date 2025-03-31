@@ -1,0 +1,77 @@
+.logo img, .logo h3 {
+    display:inline;
+    font-family: sans-serif;
+    color: rgb(75, 74, 74);
+
+
+}
+
+ul li {
+    display:inline;
+    margin-left: 200px;
+    font-family: sans-serif;
+    color:rgb(75, 74, 74);
+}
+.logo, .nav, .cart {
+    display:inline-block;
+}
+
+.cart img {
+    margin-left: 300px;
+}
+
+.laptop img {
+    width: 400px;
+    height: 400px;
+    margin-bottom:100px;
+    margin-left: 800px;
+    margin-top: 50px
+}
+
+.Text, .laptop img {
+    display:inline-block;
+}
+.Text {
+    position:absolute;
+    top:200px;
+    left: 100px;
+    font-family: sans-serif;
+    color: rgb(75, 74, 74);
+    
+}
+
+.button1 {
+    border-color:rgb(172, 97, 241);
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    color: rgb(172, 97, 241);
+}
+
+.button2 {
+    width: 150px;
+    height: 46px;
+    background-color: rgb(172, 97, 241);
+    color: white;
+    border-color: white;
+    margin-left: 30px;
+}
+
+.button2, .button1 {
+    margin-top: 30px
+}
+
+.BigCircle {
+z-index: -1;
+position:absolute;
+top: -2px;
+right: 0px;
+}
+
+.SmallCircle {
+z-index: -1;
+position:absolute;
+top: 300px;
+left:600px;
+}
+

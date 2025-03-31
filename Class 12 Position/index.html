@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position Properties</title>
+        <style>
+      input{
+           padding:10px;/* it will give space inside input making it bigger from inside */
+           margin-left:200px; /* this give space outside the input from left */
+            }
+            h2{
+                position:relative;
+                left:100px;
+                top:200px;/* this starts counting pixels from h1 tag which is closer that means from h1 tag to below 200px where it comes there h2 tag goes*/
+            }
+            button{
+                position:absolute;
+                top:200px;
+            }
+            ul{
+             margin-top:300px;
+            }
+          li{
+            display:inline; /* this puts all li tags in one line */
+          }
+        p, h4{ /* write name of all tags seperated by comma which should be in one line*/
+            display:inline;
+        }
+        #d1, #d2{ 
+            display:inline-block;
+            
+        }
+        img{
+            width:100px;
+            height:100px;
+        }
+        </style>
+    </head>
+    <body>
+<!-----------------------------Position properties
+1. margin :margin-left, top, rigt, bottom : It is used to give space from left, right, top, bottom to any tag like p, button, div, h1 etc...--
+2. Padding : Padding-left, top, right, bottom : it is ued to give space inside boxes or borders eg : div tag, button tag, input tag, textarea etc..
+they probably act as width and height. similary if we give padding inside part becomes bigger.
+3. position:relative , top, left, right, bottom : It adjust according to that tag which is closer to it. eg : if we want to do style of input tag and closer to this input tag is h1 tag then
+also we need to give margin-left:100px then it will count that margin-left from that h1 tag and give it.
+4. position: absolute, left, right, bottom, top : here the posution is counted from top of the scren eg : if we giva ne200px top in absolute then first tag will movde at top of the screen then it will count 200px and et the positon there.
+here it works according to screen. this is ver userful when we need to place tags on top of the tags eg : on top of div tag we place image or button etc..because lot of times in this cases normal margin does not work go with this one this will work for sure.
+---------------------->
+
+<input type="text">
+<h1>This is nice</h1>
+<h2>This is nice</h2>
+<button>Click me</button>
+
+<!-----------------------------------------Display properties
+1. display : inline : if we want to put tags in one line we can use display:inline
+2. display:block ;  if we want to put things vertically one after the other . but this is used less because lot of times tags are one after the other vertically.
+but when it is not and you wanted it one after the other use this.
+3. display:inline-block : this alos put the things in one line but make sure those tags are div tags eg : we have 3 div tags and we wnat them in one line then use this.
+4. display:none : when we dont or need to remove any property.
+-->
+
+<ul>
+    <li>Home</li>
+    <li>About Us</li>
+    <li>Login</li>
+</ul>
+
+<p>This is good</p>
+<h4>This is nice</h4>
+
+<div id="d1">
+
+<img src="/Class 11 Login Page/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg">
+</div>
+
+<div id="d2">
+<img src="/Class 11 Login Page/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg">
+</div>
+
+<!-- when we have two same tags and we wnat to do different style then either use class od id for them.
+ if we use id then in css use #idname
+ if we use class then in css use .classname 
+-->
+    </body>
+</html>

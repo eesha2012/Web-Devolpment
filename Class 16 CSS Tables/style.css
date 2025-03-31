@@ -1,0 +1,23 @@
+.c1 {
+    background-color: lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.c1, .c2, th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.c2 {
+    background-color: rgb(224, 178, 224);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+table {
+    background-color:midnightblue;
+    border:3px dashed pink;
+
+
+}
